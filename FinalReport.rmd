@@ -24,11 +24,15 @@ A new  preventative aids drug (triUmpsal) is under test in clinical trials. Cons
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. Discuss what data manipulations may be needed, for example sub-setting or other binning procedures and what sort of graphical displays and inferential tools will be used!-->
+
+The questions are 1. Is the drug effective for drug users? 2. Is the vaccine effective for women?
+
 $H_0$ Says there is a no difference with a new preventative aid drug called triUmpsal between drug users and females.
 
-$H_A$ Says there is a no difference with a new preventative aid drug called triUmpsal between drug users and females.
+$H_A$ Says there is a difference with a new preventative aid drug called triUmpsal between drug users and females.
 
 First we are going to separate the groups into two groups there will be two sets of analysis the drug users and the female group.
+
 
 # Results
 

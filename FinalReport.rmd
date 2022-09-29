@@ -50,6 +50,15 @@ barchartGC(~infected + treatment,data=women, type="percent")
 ```
 
 Among the drug users those who got aids the vaccine was effective because a much smaller percentage that got the vaccine contracted aids than the people that got the placebo. On the graph the people that got the placebo shows they contracted aids of about 78% compared to the people that got the drug which was less of about 24%.
+
+```{r}
+barchartGC(~infected + treatment,data=DrugUser)
+barchartGC(~infected + treatment,data=DrugUser, type="percent")
+
+```
+
+
+Drug users that got treated with the vaccine are less likely to get aids
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns, if any, that exist in the data as focused toward the research question!-->

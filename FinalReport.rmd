@@ -27,7 +27,7 @@ A new  preventative aids drug (triUmpsal) is under test in clinical trials. Cons
 
 The questions are 1. Is the drug effective for drug users? 2. Is the vaccine effective for women?
 
-$H_0$ Says there is a no difference with a new preventative aid drug called triUmpsal between drug users and females.
+$H_0$ There is no difference in the drug effectiveness for drug users and there is no drug effectiveness for women .
 
 $H_A$ Says there is a difference with a new preventative aid drug called triUmpsal between drug users and females.
 
@@ -39,6 +39,9 @@ First we are going to separate the groups into two groups there will be two sets
 <!--Divide this section into two sub-sections:  One for your descriptive results and one for your inferential results.!-->
 
 ## Descriptive Results
+
+Results for women
+
 
 ### Graphical Descriptive Results
 
@@ -82,6 +85,9 @@ The vaccine makes the women more likely to get aids.
 
 ## Descriptive Results
 
+Results for drug users
+
+
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe patterns, if any, that exist in the data as focused toward the research question. Bottom line is to explain the features of the graph that are relevant to conforming to or departing from what is expected by the null hypothesis !-->
@@ -94,6 +100,9 @@ barchartGC(~infected + treatment,data=DrugUser, type="percent")
 ```
 
 Among the drugusers who got aids the vaccine was effective because of a much smaller percentage that got the vaccine contracted aids than the people that got the placebo. On the graph the people that got the treatment shows they contracted aids of about 24% compared to the people that got the placebo which was less of about 78%.Drug users that got treated with the vaccine are less likely to get aids
+
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns, if any, that exist in the data as focused toward the research question!-->
